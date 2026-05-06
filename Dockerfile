@@ -174,7 +174,7 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 ENV NODE_ENV=production
 ARG LRC_VER=v0.1.32R1
 ARG LRL_VER=v0.15
-ARG LCSB_VER=v1.0.13
+ARG LCSB_VER=v1.0.14
 
 COPY --from=nginx /usr/local/nginx                                                                         /usr/local/nginx
 COPY --from=nginx /src/attachment/core/shmem_ipc/libosrc_shmem_ipc.so                                      /usr/local/lib/libosrc_shmem_ipc.so
