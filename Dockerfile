@@ -5,7 +5,7 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 ARG LUAJIT_INC=/usr/include/luajit-2.1
 ARG LUAJIT_LIB=/usr/lib
 
-ARG AWSLC_VER=6283365b1d43abadfa9b997812cef06b095f7f04 # v5.1.0
+ARG AWSLC_VER=f6acf748df0ea6157d55e640730b38d21a7751cd # v5.4.0
 
 ARG NGINX_VER=fe0e735ee2f17967871863b0d25607990eda0ce9 # release-1.31.2
 ARG DTR_VER=1.29.2
